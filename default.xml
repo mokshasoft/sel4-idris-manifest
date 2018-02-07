@@ -20,7 +20,10 @@
   name="libsel4-idris-rts.git"
   path="projects/libsel4-idris-rts"
   remote="mokshasoft">
-    <linkfile src="libsel4-idris-rts" dest="libs/libsel4-idris-rts"/>
+    <linkfile src="." dest="libs/libsel4-idris-rts"/>
+    <linkfile src="rts/seL4/Kbuild" dest="projects/libsel4-idris-rts/Kbuild"/>
+    <linkfile src="rts/seL4/Kconfig" dest="projects/libsel4-idris-rts/Kconfig"/>
+    <linkfile src="rts/seL4/Makefile" dest="projects/libsel4-idris-rts/Makefile"/>
 </project>
 
 <!-- include the Idris app -->
