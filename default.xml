@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Copyright 2018, Mokshasoft AB (mokshasoft.com)
+
+     This software may be distributed and modified according to the terms of
+     the BSD 2-Clause license. Note that NO WARRANTY is provided.
+     See "LICENSE_BSD2.txt" for details.
+-->
+<manifest>
+
+<!-- include all the common repositories -->
+<include name="common.xml"/>
+
+<remote
+  name="mokshasoft"
+  fetch="https://github.com/mokshasoft/" />
+
+<!-- include the libsel4-idris-rts -->
+<project
+  name="libsel4-idris-rts.git"
+  path="projects/libsel4-idris-rts"
+  remote="mokshasoft">
+    <linkfile src="libsel4-idris-rts" dest="libs/libsel4-idris-rts"/>
+</project>
+
+<!-- include the Idris app -->
+<project
+  name="sel4-idris-apps.git"
+  path="projects/sel4-idris-apps"
+  remote="mokshasoft">
+    <linkfile src="build-config/Makefile-sel4" dest="Makefile"/>
+    <linkfile src="build-config/Kbuild-sel4" dest="Kbuild"/>
+    <linkfile src="build-config/Kconfig-sel4" dest="Kconfig"/>
+    <linkfile src="build-config/configs-sel4" dest="configs"/>
+    <linkfile src="idris-apps/hello-idris-1" dest="apps/hello-idris-1"/>
+</project>
+
+</manifest>
