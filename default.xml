@@ -26,6 +26,14 @@
     <linkfile src="rts/seL4/Makefile" dest="projects/libsel4-idris-rts/Makefile"/>
 </project>
 
+<!-- include the idris-libsel4-ffi -->
+<project
+  name="idris-libsel4-ffi.git"
+  path="projects/idris-libsel4-ffi"
+  remote="mokshasoft">
+    <linkfile src="." dest="libs/idris-libsel4-ffi"/>
+</project>
+
 <!-- include the Idris app -->
 <project
   name="sel4-idris-apps.git"
