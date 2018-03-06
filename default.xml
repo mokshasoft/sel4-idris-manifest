@@ -29,7 +29,7 @@
 <!-- include the idris-libsel4-ffi -->
 <project
   name="idris-libsel4-ffi.git"
-  path="projects/idris-libsel4-ffi"
+  path="projects/libidris-libsel4-ffi"
   remote="mokshasoft">
     <linkfile src="." dest="libs/libidris-libsel4-ffi"/>
 </project>
