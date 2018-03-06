@@ -44,6 +44,7 @@
     <linkfile src="build-config/Kconfig-sel4" dest="Kconfig"/>
     <linkfile src="build-config/configs-sel4" dest="configs"/>
     <linkfile src="idris-apps/hello-idris-1" dest="apps/hello-idris-1"/>
+    <linkfile src="idris-apps/hello-idris-2" dest="apps/hello-idris-2"/>
 </project>
 
 </manifest>
