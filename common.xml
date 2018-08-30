@@ -13,16 +13,16 @@
 -->
 <manifest>
 
-<remote name="seL4"
-    fetch="https://github.com/seL4"
-/>
+<remote
+    name="seL4"
+    fetch="https://github.com/seL4"/>
 
-<default revision="master"
-    remote="seL4"
-/>
+<default
+    revision="master"
+    remote="seL4"/>
 
 <!-- the seL4 kernel -->
-<project name="seL4.git" path="kernel">
+<project name="seL4.git" path="kernel"/>
 
 <!-- tools for building -->
 <project name="seL4_tools.git" path="tools/seL4">
@@ -31,12 +31,12 @@
 </project>
 
 <!-- C library -->
-<project name="musllibc.git" path="projects/musllibc" revision="sel4">
+<project name="musllibc.git" path="projects/musllibc" revision="sel4"/>
 
 <!-- seL4-specific libraries -->
-<project name="seL4_libs.git" path="projects/seL4_libs">
+<project name="seL4_libs.git" path="projects/seL4_libs"/>
 
 <!-- seL4-independent libraries -->
-<project name="util_libs.git" path="projects/util_libs">
+<project name="util_libs.git" path="projects/util_libs"/>
 
 </manifest>

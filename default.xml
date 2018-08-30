@@ -12,25 +12,28 @@
 <include name="common.xml"/>
 
 <remote
-  name="mokshasoft"
-  fetch="https://github.com/mokshasoft/" />
+    name="mokshasoft"
+    fetch="https://github.com/mokshasoft/"/>
 
 <!-- include the libsel4-idris-rts -->
 <project
-  name="libsel4-idris-rts.git"
-  path="projects/libsel4-idris-rts"
-  remote="mokshasoft">
+    name="libsel4-idris-rts.git"
+    path="projects/libsel4-idris-rts"
+    revision="master"
+    remote="mokshasoft"/>
 
 <!-- include the idris-libsel4-ffi -->
 <project
-  name="idris-libsel4-ffi.git"
-  path="projects/libidris-libsel4-ffi"
-  remote="mokshasoft">
+    name="idris-libsel4-ffi.git"
+    path="projects/libidris-libsel4-ffi"
+    revision="master"
+    remote="mokshasoft"/>
 
 <!-- include the Idris app -->
 <project
-  name="sel4-idris-apps.git"
-  path="projects/sel4-idris-apps"
-  remote="mokshasoft">
+    name="sel4-idris-apps.git"
+    path="projects/sel4-idris-apps"
+    revision="master"
+    remote="mokshasoft"/>
 
 </manifest>
