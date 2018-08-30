@@ -20,31 +20,17 @@
   name="libsel4-idris-rts.git"
   path="projects/libsel4-idris-rts"
   remote="mokshasoft">
-    <linkfile src="." dest="libs/libsel4-idris-rts"/>
-    <linkfile src="rts/seL4/Kbuild" dest="projects/libsel4-idris-rts/Kbuild"/>
-    <linkfile src="rts/seL4/Kconfig" dest="projects/libsel4-idris-rts/Kconfig"/>
-    <linkfile src="rts/seL4/Makefile" dest="projects/libsel4-idris-rts/Makefile"/>
-</project>
 
 <!-- include the idris-libsel4-ffi -->
 <project
   name="idris-libsel4-ffi.git"
   path="projects/libidris-libsel4-ffi"
   remote="mokshasoft">
-    <linkfile src="." dest="libs/libidris-libsel4-ffi"/>
-</project>
 
 <!-- include the Idris app -->
 <project
   name="sel4-idris-apps.git"
   path="projects/sel4-idris-apps"
   remote="mokshasoft">
-    <linkfile src="build-config/Makefile-sel4" dest="Makefile"/>
-    <linkfile src="build-config/Kbuild-sel4" dest="Kbuild"/>
-    <linkfile src="build-config/Kconfig-sel4" dest="Kconfig"/>
-    <linkfile src="build-config/configs-sel4" dest="configs"/>
-    <linkfile src="idris-apps/hello-idris-1" dest="apps/hello-idris-1"/>
-    <linkfile src="idris-apps/hello-idris-2" dest="apps/hello-idris-2"/>
-</project>
 
 </manifest>
