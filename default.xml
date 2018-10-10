@@ -22,13 +22,6 @@
     revision="master"
     remote="mokshasoft"/>
 
-<!-- include the idris-libsel4-ffi -->
-<project
-    name="idris-libsel4-ffi.git"
-    path="projects/libidris-libsel4-ffi"
-    revision="master"
-    remote="mokshasoft"/>
-
 <!-- include the Idris app -->
 <project
     name="sel4-idris-apps.git"
