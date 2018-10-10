@@ -19,8 +19,9 @@ Run the following to get the code:
 
 Run the following to build and run it:
 
-        make x64_hello-idris-1_defconfig
-        make simulate
+        ../init-build.sh -DPLATFORM=x86_64
+        ninja
+        ./simulate
 
 After the boot the following should be displayed in the terminal:
 
