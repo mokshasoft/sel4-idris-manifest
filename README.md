@@ -8,7 +8,7 @@ To build this application the seL4 build system and the Idris compiler needs to 
 
 ## Get the Code!
 
-Run the following to get the code:
+Run the following commands to get the code:
 
         mkdir sel4-idris
         cd sel4-idris
@@ -17,8 +17,10 @@ Run the following to get the code:
 
 ## Build and run it in QEMU
 
-Run the following to build and run it:
+Run the following commands to build and run it:
 
+        mkdir build
+        cd build
         ../init-build.sh -DPLATFORM=x86_64
         ninja
         ./simulate
