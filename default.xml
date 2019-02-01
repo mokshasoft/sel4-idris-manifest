@@ -15,13 +15,15 @@
     name="mokshasoft"
     fetch="https://github.com/mokshasoft/"/>
 
-<!-- include the libsel4-idris-rts -->
+<!-- include the idris-rts -->
 <project
-    name="libsel4-idris-rts.git"
-    path="projects/libsel4-idris-rts"
+    name="idris-rts.git"
+    path="projects/libidris-rts"
     revision="master"
     remote="mokshasoft">
-    <linkfile src="rts/seL4/CMakeLists.txt" dest="projects/libsel4-idris-rts/CMakeLists.txt"/>
+    <linkfile
+        src="rts/seL4/CMakeLists.txt"
+        dest="projects/libidris-rts/CMakeLists.txt"/>
 </project>
 
 
