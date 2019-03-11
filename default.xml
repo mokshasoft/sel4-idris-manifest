@@ -26,6 +26,12 @@
         dest="projects/libidris-rts/CMakeLists.txt"/>
 </project>
 
+<!-- include the libsel4-idris-ffi -->
+<project
+    name="libsel4-idris-ffi.git"
+    path="projects/libsel4-idris-ffi"
+    revision="master"
+    remote="mokshasoft"/>
 
 <!-- include the Idris app -->
 <project
