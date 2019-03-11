@@ -31,7 +31,11 @@
     name="libsel4-idris-ffi.git"
     path="projects/libsel4-idris-ffi"
     revision="master"
-    remote="mokshasoft"/>
+    remote="mokshasoft">
+    <linkfile
+        src="cmake/top-level.cmake"
+        dest="CMakeLists.txt"/>
+</project>
 
 <!-- include the Idris app -->
 <project

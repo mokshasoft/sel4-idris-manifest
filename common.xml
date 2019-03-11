@@ -26,7 +26,6 @@
 
 <!-- tools for building -->
 <project name="seL4_tools.git" path="tools/seL4">
-    <linkfile src="cmake-tool/default-CMakeLists.txt" dest="CMakeLists.txt"/>
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
 </project>
 
